@@ -1,0 +1,65 @@
+
+/*library stylesheet block
+#library_Dashboard ,#logout{color: white;text-decoration: none;}*/
+
+html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+/* Style tab links */
+/* Style the tab content (and add height:100% for full page content) */
+.secs_tabcontent {color: black;display: none;padding: 100px 20px;height: 100%;}
+#mylinks:hover{text-decoration: none;color:red;}
+.secs_main_links:hover,.teacher_main_links:hover{cursor: pointer;}
+#secs_loading {width: 100%;height: 100%;top: 0;left: 0;position: fixed;display: block;opacity: .5;background-color: #fff;z-index: 99;text-align: center;}
+#secs_loading-image {position: fixed;top: 50%;left: 50%;/* bring your own prefixes */transform: translate(-50%, -50%);z-index: 100;}
+#NumberOfBookBorrwer{
+    color:white;
+    padding: 0px 5px 0px 5px;
+    border-radius:50%;
+  }
+.dashboard:hover,.secs_main_links:hover{
+    text-decoration: none;
+    background-color:black;
+    color:white;
+}
+
+
+/* codes of search form*/
+form.secs_search_form input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid white;
+    float: left;
+    margin-left:10px;
+    width: 80%;
+    background: white;
+}
+
+form.secs_search_form button {
+    float: left;
+    background:white;
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius:0px 10px 10px 0px;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.secs_search_form button:hover {
+    background:#098777;
+}
+
+form.secs_search_form::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#link1 ul li a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+#link1 ul li ,#account ul li{
+    list-style-type: none;
+    margin-left:-40px;
+}
